@@ -28,13 +28,13 @@ printf("Digite as informações da sua primeira carta\n");
 
 //aqui começam as entradas de dados da 1ª carta
 printf("Digite o Estado: \n");
-scanf("%s" , &Estado1 );
+scanf("%s" , Estado1 );
 
 printf("Insira um código para a sua carta: \n");
-scanf("%s" , &Codigo_da_carta1 );
+scanf("%s" , Codigo_da_carta1 );
 
 printf("Digite o nome da cidade: \n");
-scanf("%s" , &Nome_da_cidade1 );
+scanf("%s" , Nome_da_cidade1 );
 
 printf("Qual a população dessa cidade?: \n");
 scanf("%lf" , &Populacao1 );
@@ -56,13 +56,13 @@ printf("Agora digite as informações da sua segunda carta\n");
 
 //aqui começam as entradas de dados da 2ª carta
 printf("Digite o Estado: \n");
-scanf("%s" , &Estado2 );
+scanf("%s" , Estado2 );
 
 printf("Insira um código para a sua carta: \n");
-scanf("%s" , &Codigo_da_carta2 );
+scanf("%s" , Codigo_da_carta2 );
 
 printf("Digite o nome da cidade: \n");
-scanf("%s" , &Nome_da_cidade2 );
+scanf("%s" , Nome_da_cidade2 );
 
 printf("Qual a população dessa cidade?: \n");
 scanf("%lf" , &Populacao2 );
